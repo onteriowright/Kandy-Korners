@@ -1,5 +1,5 @@
 import React from "react";
-import "./Locations.css";
+import "./styles/Locations.css";
 
 export default ({ location }) => (
   <section className="location">

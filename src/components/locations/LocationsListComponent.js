@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { LocationContext } from "./LocationsDataProvider";
 import Location from "./Location";
-import "./Locations.css";
+import "./styles/Locations.css";
 
 export default () => {
   const { locations } = useContext(LocationContext);

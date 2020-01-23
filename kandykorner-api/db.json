@@ -1,4 +1,47 @@
 {
+  "products": [
+    {
+      "id": 1,
+      "product": "Jolly Ranchers",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "product": "Coca Cola",
+      "productId": 4
+    },
+    {
+      "id": 3,
+      "product": "Star Burst",
+      "productId": 5
+    },
+    {
+      "id": 4,
+      "product": "Sprite",
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "product": "Hershey",
+      "productId": 3
+    },
+    {
+      "id": 6,
+      "product": "Ice Breakers",
+      "productId": 2
+    },
+    {
+      "id": 7,
+      "product": "Jaw Breakers",
+      "productId": 1
+    },
+    {
+      "id": 8,
+      "product": "Now or Laters",
+      "productId": 5
+    }
+  ],
+
   "locations": [
     {
       "id": 1,
@@ -21,5 +64,29 @@
       "squareFoot": 500,
       "handicapAccesible": true
     }
-  ]
+  ],
+  "employees": [],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    },
+    {
+      "id": 5,
+      "type": "Chewy Candy"
+    }
+  ],
+  "customers": []
 }

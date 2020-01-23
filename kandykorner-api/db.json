@@ -1,0 +1,25 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville",
+      "address": "300 Park Way",
+      "squareFoot": 2500,
+      "handicapAccesible": true
+    },
+    {
+      "id": 2,
+      "name": "Texas",
+      "address": "1515 Lone Star",
+      "squareFoot": 5500,
+      "handicapAccesible": false
+    },
+    {
+      "id": 3,
+      "name": "Miami",
+      "address": "500 Ocean Drive",
+      "squareFoot": 500,
+      "handicapAccesible": true
+    }
+  ]
+}

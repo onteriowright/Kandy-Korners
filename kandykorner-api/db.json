@@ -55,14 +55,14 @@
       "name": "Texas",
       "address": "1515 Lone Star",
       "squareFoot": 5500,
-      "handicapAccesible": false
+      "handicapAccesible": true
     },
     {
       "id": 3,
       "name": "Miami",
       "address": "500 Ocean Drive",
       "squareFoot": 500,
-      "handicapAccesible": true
+      "handicapAccesible": false
     }
   ],
   "employees": [],

@@ -26,7 +26,7 @@ export const ProductProvider = props => {
   }, []);
 
   useEffect(() => {
-    console.log("State Changed");
+    console.log("State Changed",);
   }, [products]);
 
   return (
@@ -34,8 +34,7 @@ export const ProductProvider = props => {
       value={{
         products,
         addProducts
-      }}
-    >
+      }}>
       {props.children}
     </ProductContext.Provider>
   );

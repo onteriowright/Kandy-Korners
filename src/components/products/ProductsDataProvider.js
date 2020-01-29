@@ -18,7 +18,7 @@ export const ProductProvider = props => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(products)
-    }).then(getProducts);
+    });
   };
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export const ProductProvider = props => {
   }, []);
 
   useEffect(() => {
-    console.log("State Changed",);
+    console.log("State Changed");
   }, [products]);
 
   return (

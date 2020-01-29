@@ -41,7 +41,6 @@
       "productId": 5
     }
   ],
-
   "locations": [
     {
       "id": 1,
@@ -65,7 +64,32 @@
       "handicapAccesible": false
     }
   ],
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Onterio Wright",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 150
+    },
+    {
+      "name": "Akemo Wright",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 200,
+      "id": 2
+    },
+    {
+      "name": "sfaS",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 123,
+      "id": 3
+    }
+  ],
   "productTypes": [
     {
       "id": 1,
